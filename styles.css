@@ -35,7 +35,8 @@ button:hover {
     background-color: #0056b3;
 }
 
-#linkOutput {
+#linkOutput, #passwordoutput{
     margin-top: 20px;
     word-wrap: break-word;
+    font-weight: bold;
 }
