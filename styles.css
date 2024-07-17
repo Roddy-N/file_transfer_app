@@ -5,6 +5,25 @@ body {
     padding: 0;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -20,6 +39,21 @@ h1 {
 
 .upload-section {
     margin-bottom: 20px;
+}
+
+.progress-section {
+    margin: 20px 0;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #007bff;
+    transition: width 0.5s;
 }
 
 button {
@@ -39,4 +73,12 @@ button:hover {
     margin-top: 20px;
     word-wrap: break-word;
     font-weight: bold;
+}
+
+.download-section {
+    margin-bottom: 20px;
+}
+
+.status-section {
+    margin-top: 20px;
 }
